@@ -39,7 +39,7 @@ const CARDS = [
   },
   {
     name: "Bubble",
-    icon: "ri-bubble-chart-line",
+    icon: "ri-bubble-chart-fill",
     link: "https://bubble.ilioslabs.dev/",
   },
 ];
