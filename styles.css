@@ -1,10 +1,10 @@
 /* Custom Variables | Color Scheme */
 
 :root {
-  --primary: #9ECE6A;
-  --text-light: #73DACA;
-  --background: #1A1B26;
-  --background-light: #202633;
+  --primary: #0544c7;
+  --text-light: #c82723;
+  --background: #1a1b26;
+  --background-light: #d6d6d6;
 }
 
 *,
@@ -17,11 +17,15 @@
 
 body {
   color: var(--text-light);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
-  padding: 2rem 4rem;
+  padding: 8rem 14rem;
 
-  background-color: var(--background);
+  background: url("./assets/image-asset.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   box-sizing: border-box;
 }
 
@@ -44,7 +48,7 @@ main {
 
 .header {
   font-weight: 400;
-  
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +56,7 @@ main {
 
 #currentDate {
   color: var(--primary);
-  font-size: 2rem
+  font-size: 2rem;
 }
 
 #currentTime {
@@ -81,7 +85,7 @@ main {
 
 .card:link,
 .card:visited {
-  color: white;
+  color: #36579d;
   text-decoration: none;
 
   margin: 1.2rem;
@@ -89,7 +93,7 @@ main {
 
   background-color: var(--background-light);
   border-radius: 15px;
-  border: 1px solid rgba(255,255,255,.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 
   display: flex;
   justify-content: center;
