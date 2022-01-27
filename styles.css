@@ -3,7 +3,7 @@
 :root {
   --primary: #dc6435;
   --text-light: #924324;
-  --background: #833d23;
+  --background: #1c1616;
   --background-light: #413636;
 }
 
@@ -35,6 +35,7 @@ body {
   padding: 8rem 14rem;
 
   background: url("./assets/image-asset.jpg") no-repeat center center fixed;
+  background-color: var(--background);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
