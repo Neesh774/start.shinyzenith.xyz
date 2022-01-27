@@ -1,10 +1,10 @@
 /* Custom Variables | Color Scheme */
 
 :root {
-  --primary: #0544c7;
-  --text-light: #c82723;
-  --background: #1a1b26;
-  --background-light: #d6d6d6;
+  --primary: #dc6435;
+  --text-light: #924324;
+  --background: #833d23;
+  --background-light: #413636;
 }
 
 *,
@@ -76,6 +76,7 @@ main {
 #currentTime {
   font-size: 4rem;
   font-weight: 600;
+  color: var(--primary);
 }
 
 @media screen and (max-width: 1250px) {
@@ -99,7 +100,7 @@ main {
 
 .card:link,
 .card:visited {
-  color: #36579d;
+  color: #b04e27;
   text-decoration: none;
 
   margin: 1.2rem;
@@ -164,5 +165,5 @@ main {
 }
 
 #cardContainer {
-  margin-top: 17vh;
+  margin-top: 15vh;
 }
