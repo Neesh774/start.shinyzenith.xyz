@@ -90,10 +90,10 @@ const updateDate = () => {
   let currentYear = completeDate.getFullYear();
 
   // Update the Time
-  currentTime.innerHTML = `${currentHour}:${currentMinute}`;
+  currentTime.innerHTML = `${currentHour%12}:${currentMinute}`;
 
   // Update the Date
-  currentDate.innerHTML = `${DAYS[currentDay]} ${currentNumber}, ${MONTHS[currentMonth]} ${currentYear}`;
+  currentDate.innerHTML = `${DAYS[currentDay]}, ${MONTHS[currentMonth]} ${currentNumber} ${currentYear}`;
 
   // Create a Loop
   setTimeout(() => {
