@@ -1,2 +1,2 @@
 # Startpage
-https://start.shinyzenith.xyz
+https://start.ilioslabs.dev

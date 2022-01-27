@@ -4,7 +4,7 @@
 
 /* -------------------------------------------------------- */
 
-const NAME = "Shinyzenith";
+const NAME = "Neesh";
 
 const CARDS = [
   {
@@ -20,7 +20,7 @@ const CARDS = [
   {
     name: "GitHub",
     icon: "ri-github-fill",
-    link: "https://github.com/shinyzenith",
+    link: "https://github.com/Neesh774",
   },
   {
     name: "Whatsapp",
@@ -33,14 +33,14 @@ const CARDS = [
     link: "https://mail.google.com/mail/u/0/#inbox",
   },
   {
-    name: "Shinyzenith.xyz",
+    name: "Ilios Labs",
     icon: "ri-global-fill",
-    link: "https://shinyzenith.xyz",
+    link: "https://ilioslabs.dev",
   },
   {
-    name: "Hostinger",
-    icon: "ri-server-fill",
-    link: "https://hpanel.hostinger.com/",
+    name: "Bubble",
+    icon: "ri-bubble-chart-line",
+    link: "https://bubble.ilioslabs.dev/",
   },
 ];
 
