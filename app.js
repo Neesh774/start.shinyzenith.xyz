@@ -8,9 +8,9 @@ const NAME = "Neesh";
 
 const CARDS = [
   {
-    name: "Youtube",
-    icon: "ri-youtube-fill",
-    link: "https://www.youtube.com",
+    name: "Notion",
+    icon: "ri-git-repository-line",
+    link: "https://www.notion.so/neesh-ilios/Ilios-f3744a799ff64c42be357226bf463922",
   },
   {
     name: "Discord",
